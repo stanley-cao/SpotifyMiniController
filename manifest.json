@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Spotify Mini Controller",
+    "version": "0.3.0",
+    "description": "Control Spotify without switching tabs.",
+    "action": {},
+    "side_panel": {
+      "default_path": "src/panel/panel.html"
+    },
+    "background": {
+      "service_worker": "src/background/background.js",
+      "type": "module"
+    },
+    "permissions": ["identity", "storage", "sidePanel"],
+    "host_permissions": ["https://api.spotify.com/*"],
+    "oauth2": {
+      "client_id": "b902612eb0de4453ba86d57151e069e9",
+      "scopes": []
+    },
+    "icons": {
+      "16": "assets/MiniController.png",
+      "48": "assets/MiniController.png",
+      "128": "assets/MiniController.png"
+    }
+  }

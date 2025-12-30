@@ -1,0 +1,19 @@
+export const Msg = Object.freeze({
+    LOGIN: "LOGIN",
+    LOGOUT: "LOGOUT",
+  
+    ME: "ME",
+    NOW_PLAYING: "NOW_PLAYING",
+  
+    TOGGLE: "TOGGLE",
+    NEXT: "NEXT",
+    PREV: "PREV",
+    VOLUME: "VOLUME",
+    SEEK: "SEEK",
+  
+    PLAYLISTS: "PLAYLISTS",
+    PLAY_PLAYLIST: "PLAY_PLAYLIST",
+  
+    PLAYLIST_TRACKS: "PLAYLIST_TRACKS",
+    PLAY_TRACK_IN_PLAYLIST: "PLAY_TRACK_IN_PLAYLIST"
+  });
